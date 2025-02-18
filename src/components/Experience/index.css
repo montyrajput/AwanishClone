@@ -1,0 +1,86 @@
+.experience-main-container {
+    background-color: #191f36;
+    height: auto;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience-heading {
+    color: #59b2f4;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+  }
+  @media screen and (min-width: 768px) {
+    .experience-heading {
+      font-size: 35px;
+    }
+  }
+  .experience-company {
+    color: #ffffff;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    .experience-company {
+      font-size: 23px;
+    }
+  }
+  .experience-company1 {
+    color: #adff2f;
+    font-size: 21px;
+  }
+  @media screen and (min-width: 768px) {
+    .experience-company1 {
+      font-size: 25px;
+    }
+  }
+  .experience-company2 {
+    color: #ffd700;
+    font-size: 21px;
+  }
+  @media screen and (min-width: 768px) {
+    .experience-company2 {
+      font-size: 25px;
+    }
+  }
+  .experience-paragraph {
+    color: #cccccc;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    .experience-paragraph {
+      line-height: 1.3;
+      letter-spacing: 2px;
+      font-size: 20px;
+      padding-right: 35px;
+      padding-left: 35px;
+    }
+  }
+  .experience-month {
+    color: rgb(8, 245, 146);
+  }
+  .experience-address {
+    color: rgb(8, 245, 154);
+  }
